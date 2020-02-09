@@ -1,0 +1,49 @@
+h1 {
+    font-family: elephant;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: white;
+
+}
+
+body {
+background: no-repeat url("fond_monstera.jpg");
+text-align: center;
+background-size: 100%;
+}
+
+.link{
+    font-family: gadugi;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+span{
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 50%;
+    position: relative;
+    left: 10vw;
+}
+
+#bouttons{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content{
+    position: absolute;
+    background-color: #212121;
+    top: 60px;
+    left: 400px;
+    width: 40vw;
+    height: 70vh;
+    padding: 50px;
+    padding-left: 80px;
+    opacity: 0.9;
+}

@@ -1,0 +1,156 @@
+h1 {
+    font-family: elephant;
+    font-size: 75px;
+    letter-spacing: 10px;
+    color: white;
+
+}
+
+h2 {
+    font-family: elephant;
+    font-size: 75px;
+    letter-spacing: 10px;
+    color: white;
+
+}
+
+body {
+background: no-repeat url("1.png");
+text-align: center;
+background-size: 100%;
+}
+
+.link{
+    font-family: gadugi;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+span{
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+#bouttons{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+
+.content{
+    position: absolute;
+    background-color: #292934;
+    top: 10vh;
+    left: 25vw;
+    width: 50vw;
+    height: 80vh;
+    opacity: 0.9;
+
+}
+
+#about{
+    left: 10vw;
+    width: 45vw;
+    background-color: #020202;
+
+}
+
+#title{
+    position: relative;
+    top: -5vh;
+    margin: 0;
+}
+
+.about{
+    font-family: elephant;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: white;
+    padding: 30px;
+    left: 5%;
+    position: relative;
+    top: 10%;
+    width: 70%;
+}
+
+.profil{
+    width: 15vw;
+    position: absolute;
+    top: 25%;
+    right: -20%;
+}
+
+.btn{
+    color: white;
+    background-color: #0D0D1C;
+    padding: 20px;
+    font-family: elephant;
+    font-size: 25px;
+    border-radius: 40px;
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    opacity: 0.6;
+    text-decoration: none;
+    transition: .25s ease;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    left: 10%;
+    position: relative;
+}
+
+#mail-content{
+  width: 100%;
+  height: 50%;
+  padding: 12px; 
+  border: 1px solid rgb(255, 255, 255); 
+  background-color: #242431;
+  color: white;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 100px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  
+  
+}
+
+#mail-sending{
+    color: white;
+    background-color: #0D0D1C;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    font-family: elephant;
+    font-size: 25px;
+    border-radius: 40px;
+    width: 15%;
+    transition: .25s ease;
+    position: relative;
+    left: 42.5%;
+}
+
+#mail-sending:hover{
+    opacity: 0.7;
+}

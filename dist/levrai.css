@@ -389,6 +389,7 @@ footer {
 @media screen and (max-width: 765px) {
   .header {
     grid-template-rows: 25fr 20fr 126px 20fr 25fr;
+    overflow-x: hidden;
   }
   h1 {
     transform: translateY(-12px);

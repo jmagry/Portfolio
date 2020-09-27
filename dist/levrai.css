@@ -244,6 +244,12 @@ h2 {
   margin: 40px auto;
   display: block;
   text-decoration: none;
+  transition: all 500ms ease;
+}
+
+.category:hover {
+  color: #e9bdec;
+  background-color: #08181a;
 }
 
 .about {

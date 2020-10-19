@@ -79,7 +79,7 @@ a span {
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(-470px, 400px);
+  transform: translate(-300px, 400px);
 }
 
 ::selection {

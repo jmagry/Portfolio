@@ -116,7 +116,7 @@
   top: 18vh;
   left: 7vw;
   transform: translate(-50%, -50%);
-  animation : 8s ease-in-out floating infinite 3s;
+  animation : 8s ease-in-out floating infinite 2s;
 }
 
 .circle4{
@@ -128,7 +128,7 @@
   top: 4vh;
   left: 12vw;
   transform: translate(-50%, -50%);
-  animation : 8s ease-in-out floating infinite 1.5s;
+  animation : 8s ease-in-out floating infinite 1.2s;
 }
 
 #yard{
@@ -140,10 +140,32 @@
 
 }
 
-/*
+/****************** responsive *****************/
+
 @media screen and (max-width: 1050px) { 
-  .main { 
-    margin: 1em 2em; 
-  } 
+  
+.main {
+  grid-template-columns: 0fr 50px 1fr 50px 0fr;
+}
+
+.title {
+  width: 100%;
+}
+
+.circle2 {
+  top: -18vh;
+  left: -24vw;
+}
+
+.circle3 {
+  top: 25vh;
+  left: -21vw;
+}
+
+.circle4 {
+  top: 14vh;
+  left: 26vw;
+}
+
 } 
 

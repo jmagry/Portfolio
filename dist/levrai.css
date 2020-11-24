@@ -35,6 +35,12 @@
   position: relative;
 }
 
+.contact:hover {
+  color: #e9bdec;
+  transition: all 300ms ease;
+  font-weight: bold;
+}
+
 .trait-scroll {
   display: block;
   width: 1px;
@@ -322,6 +328,12 @@ footer {
   font-family: "Roboto";
   text-decoration: none;
   font-size: 15px;
+}
+
+.links:hover {
+  color: #e9bdec;
+  text-decoration: underline;
+  transition: all 300ms ease;
 }
 
 .lineFooter1 {
